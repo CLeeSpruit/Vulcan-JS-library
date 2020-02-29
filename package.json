@@ -1,0 +1,48 @@
+{
+    "name": "{{pkg}}",
+    "version": "1.0.0",
+    "description": "{{description}}",
+    "source": "./{{pkg}}.js",
+    "main": "dist/{{pkg}}.js",
+    "module": "dist/{{pkg}}.mjs",
+    "unpkg": "dist/{{pkg}}.umd.js",
+    "files": [
+        "dist/**/*"
+    ],
+    "scripts": {
+        "build": "npm run flush && microbundle",
+        "lint": "xo",
+        "test": "nyc --reporter=lcov ava",
+        "flush": "rm -r ./dist || true",
+        "semantic-release": "semantic-release"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/{{ghRepoOwner}}/{{ghRepoName}}.git"
+    },
+    "keywords": [
+        "library",
+        "javascript"
+    ],
+    "author": "{{author}}",
+    "license": "GPL-3.0-or-later",
+    "bugs": {
+        "url": "https://github.com/{{ghRepoOwner}}/{{ghRepoName}}/issues"
+    },
+    "homepage": "https://github.com/{{ghRepoOwner}}/{{ghRepoName}}#readme",
+    "devDependencies": {
+        "@babel/core": "^7.8.4",
+        "@babel/preset-env": "^7.8.4",
+        "@semantic-release/changelog": "^5.0.0",
+        "@semantic-release/git": "^9.0.0",
+        "ava": "2.4.0",
+        "codecov": "^3.6.5",
+        "microbundle": "^0.11.0",
+        "nyc": "^15.0.0",
+        "semantic-release": "^17.0.4",
+        "xo": "^0.26.1"
+    },
+    "xo": {
+        "env": "browser"
+	}
+}
