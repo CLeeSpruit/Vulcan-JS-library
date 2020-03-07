@@ -15,7 +15,7 @@ This is a [Vulcan](https://github.com/CassandraSpruit/Vulcan) template to make b
 **Template for README.md below. Remember to clean this up when generated.**
 
 ---
-# [object Object]
+# {{pkg}}
 
 This is a [Vulcan](https://github.com/CassandraSpruit/Vulcan) template to make boilerplate code from.
 
@@ -24,14 +24,14 @@ This is a [Vulcan](https://github.com/CassandraSpruit/Vulcan) template to make b
 - Clone this repository on your machine
 - In the directory this repo has been cloned to, run ```vulcan link``` to link this to your global list of templates.
 - Navigate to the directory this template will be generated in.
-- Run ```vulcan generate [object Object]``` and continue in the interactive prompt.
+- Run ```vulcan generate {{pkg}}``` and continue in the interactive prompt.
 - If successful, you now have boilerplate ready to go for your new project!
 
 ---
 
 **Template for README.md below. Remember to clean this up when generated.**
 
----# [object Object]
+---# {{pkg}}
 
 This is a [Vulcan](https://github.com/CassandraSpruit/Vulcan) template to make boilerplate code from.
 
@@ -40,7 +40,7 @@ This is a [Vulcan](https://github.com/CassandraSpruit/Vulcan) template to make b
 - Clone this repository on your machine
 - In the directory this repo has been cloned to, run ```vulcan link``` to link this to your global list of templates.
 - Navigate to the directory this template will be generated in.
-- Run ```vulcan generate [object Object]``` and continue in the interactive prompt.
+- Run ```vulcan generate {{pkg}}``` and continue in the interactive prompt.
 - If successful, you now have boilerplate ready to go for your new project!
 
 ---
